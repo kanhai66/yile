@@ -1,0 +1,805 @@
+{
+  "spider": "./KanhaiBL.jar",
+  "logo":"https://cloud.7so.top/f/VANqCg/%E9%9F%B3%E4%B9%90.gif",
+  "sites": [
+         {
+            "key": "演唱会",
+            "name": "🍎海宇戏曲音乐🌠[演唱会]",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/演唱会.json"
+         },
+         {     
+            "key": "dj", 
+            "name": "😄阿哈DJ音乐", 
+            "type": 3,
+            "jar":"./XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 0,
+            "quickSearch": 1, 
+            "filterable": 1, 
+            "ext": "./json/阿哈DJ视频.json"
+           },
+         {
+            "key": "网易云音乐1",
+            "name": "💱网易云音乐",
+            "type": 3,
+            "api": "https://raw.giteeusercontent.com/huyyyyy-kai/02111/raw/master/py/apiv231网易云音乐1.py"
+          },
+         {
+            "key": "sing音乐",
+            "name": "🎙️sing音乐",
+            "type": 3,
+            "api": "https://gitee.com/huyyyyy-kai/02111/raw/master/py/apiv203sing音乐.py"
+        },
+          {
+            "key": "啊哈",
+            "name": "⛵啊哈音乐[XBP]",
+            "type": 3,
+            "jar":"./XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/啊哈音乐.json"
+         },
+         {
+            "key":"爱听音乐",
+            "name":"🔔爱听丨音乐",
+            "type":3,
+            "api":"https://mpimg.cn/down.php/b3284feb00815ddd5d7e71e1468d9cf1.py",
+            "searchable":1,
+            "changeable":1,
+            "quickSearch":1,
+            "filterable":1
+         },
+         {
+            "key": "易听音乐",
+            "name": "🎑易听音乐",
+            "type": 3,
+            "jar":"./儿童.jar",
+            "api": "csp_XBPQ",
+            "ext":"./json/易听.json"
+         },
+         {
+            "key": "闪闪音乐网",
+            "name": "💥闪闪音乐网",
+            "type": 3,
+            "jar":"./儿童.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/闪闪音乐网.json"
+         },
+         {
+            "key": "深港音乐汇mp3",
+            "name": "🌆深港音乐汇",
+            "type": 3,
+            "jar":"./儿童.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/深港音乐.json"
+         },
+         {     
+            "key": "时音乐网", 
+            "name": "💍水晶DJ", 
+            "type": 3,
+            "jar":"./XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1, 
+            "filterable": 1, 
+            "ext": "./json/水晶DJ.json"
+         },
+         {
+           "key":"枫叶音乐",
+           "name":"🍁枫叶音乐",
+           "type":3,
+           "api":"https://mpimg.cn/down.php/2090fedb67387ea1a1ad908a94eb0aa6.py",
+           "searchable":1,
+           "changeable":1,
+           "quickSearch":1,
+           "filterable":1
+         },
+         {
+            "key": "嗨瑶",
+            "name": "🎻嗨瑶音乐",
+            "type": 3,
+            "jar":"./XBPQ.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/92音乐.json"
+         },
+        {
+           "key": "小舞音乐",
+           "name": "💃小舞音乐",
+           "api": "./看海/娱乐大师.py",
+           "filterable": 1,
+           "quickSearch": 1,
+           "searchable": 1,
+           "type": 3
+        }, 
+        {
+           "key": "哔哩直播",
+           "name": "🅱️哔哩直播",
+           "type": 3,
+           "api": "./看海/哔哩直播.py"
+         },
+      
+        {
+           "key": "DJ耶耶耶",
+           "name": "🆔DJ耶耶耶",
+           "type": 3,
+           "jar":"./XBPQ.jar",
+           "api": "csp_XBPQ",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "ext":"./json/DJ耶耶.json"
+         },
+         {
+             "key": "皮狗DJ",
+             "name": "🐶皮狗DJ",
+             "type": 3,
+             "jar":"./XBPQ.jar",
+             "api": "csp_XBPQ",
+             "searchable": 1,
+             "quickSearch": 1,
+             "filterable": 1,
+             "ext":"./json/皮狗音乐.json"
+         },
+         {
+             "key": "爱玩音乐网",
+             "name": "🎼爱玩音乐",
+             "type": 3,   
+             "jar":"./儿童.jar",
+             "api": "csp_XBPQ",
+             "searchable": 0,
+             "quickSearch": 0,
+             "filterable": 1,
+             "ext":"./json/爱玩音乐.json"
+         },
+         {
+             "key": "悦听音乐网",
+             "name": "🔊悦听音乐",
+             "type": 3,
+             "api": "csp_XBPQ",  
+             "jar":"./儿童.jar",
+             "searchable": 0,
+             "quickSearch": 0,
+             "filterable": 1,
+             "ext":"./json/悦听音乐.json"
+         },
+         {
+             "key": "棋牌",
+             "name": "♎看海棋牌",
+             "type": 3,
+             "api": "csp_Bili",
+             "searchable": 1,
+             "quickSearch": 1,
+             "filterable": 1,
+             "ext": "./json/看海棋牌.json"
+          },
+          {
+            "key": "兔儿音乐",
+            "name": "🐰兔儿音乐",
+            "type": 3,
+            "jar":"./kanhai音.jar",
+            "api": "csp_HBPQ",
+            "ext": "./json/兔儿音乐.json"
+          },
+         {
+            "key": "DJ[听]",
+	     "name": "🎵啊哈DJ音乐[js]",
+	     "type": 3,
+	     "api": "http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+	     "searchable": 1,
+             "quickSearch": 1,
+	     "filterable": 1,
+            "order_num": 0,
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/啊哈DJ.js"
+		 },
+         {
+            "key": "京视v",
+            "name": "✳️京视",
+            "type": 3,
+            "api": "http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext":"http://xn--c-9s9bl6y.xt91tv.shop/看海/京视.js"
+         },
+         {
+            "key": "M音乐v",
+            "name": "🎤KTV歌厅",
+            "type": 3,
+            "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/KTV歌厅.js"
+         },
+        {
+            "key": "凤凰FM",
+	        "name": "💎凤凰FM[听]",
+	        "type": 3,
+	        "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+	        "searchable": 1,
+            "quickSearch": 1,
+	        "filterable": 1,
+            "order_num": 0,
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/凤凰FM[听].js"
+	  },
+         {
+           "key": "蜻蜓",
+           "name": "📻蜻蜓FM[收音机]",
+           "type": 3,
+           "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "order_num": 0,
+           "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/蜻蜓FM[听].js"
+          },
+         {
+            "key": "music",
+            "name": "💎休闲|音乐",
+            "type": 3,
+            "jar":"./spider.jar",
+            "api": "csp_Music",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {"type": "rect",
+            "ratio": 1.433}
+         },
+         {
+            "key": "贝儿虎",
+            "name": "🐯贝儿虎儿歌",
+            "type": 3,
+            "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/贝儿虎.js" 
+          }, 
+          {
+            "key": "兔小贝",
+            "name": "👒兔小贝",
+            "type": 3,
+            "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/兔小贝.js"
+         },
+         {
+            "key": "哔哩影视",
+            "name": "❇️哔哩影视",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "ext":"./json/哔哩影视.json"
+         },
+         {
+            "key": "潮 汕",
+            "name": "🥨潮汕",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/Bli潮汕.json"
+         },
+         {
+            "key": "戏曲",
+            "name": "🎭梨园戏曲",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext":"./json/梨园戏曲.json"
+        },
+        {
+            "key": "戏曲多多",
+            "name": "🍟多多戏曲",
+            "type": 3,
+            "jar":"./儿童.jar",
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./戏曲多多.json"
+         },
+         {
+            "key":"戏曲多多2",
+            "name":"☸️戏曲多多2",
+            "type":3,
+            "api":"csp_AppLY",
+            "jar":"https://gitee.com/baohe2025/bh/raw/master/spider.jar",
+            "searchable":1,
+            "quickSearch":1,
+            "filterable":1
+         },
+         {
+            "key": "中国戏曲",
+            "name": "✳️看海戏曲",
+            "type": 3,
+            "api": "http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext":"http://xn--c-9s9bl6y.xt91tv.shop/看海/戏曲.js"
+         },
+         {
+            "key": "DG",
+            "name": "👑DG音乐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext":"./json/海宇音乐集.json"
+         },
+         {
+            "key": "女团集",
+            "name": "🅱️哔哩女团",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/美女团.json"
+         },
+         {
+            "key": "相声小品",
+            "name": "🏮相声小品",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/Blixs.json"
+        },
+        {
+            "key": "酷6",
+            "name": "🎵酷6",
+            "type": 3,
+            "api": "http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0, 
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/酷6网.js"
+        },
+        {
+           "key": "明星MV",
+           "name": "🎧MV大全",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "ext": "./json/哔哩MV大全.json"
+        },
+        {
+           "key": "cdq_豆包",
+           "name": "🎧豆包歌曲",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "ext": "./json/豆包歌曲MV.json"
+        },
+        {
+           "key": "二小姐",
+           "name": "🆚二小姐歌曲",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "ext": "./json/二小姐MV.json"
+        },    
+        {
+           "key": "MV歌曲",
+           "name": "💃名星MV",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "ext":"./json/MV大全.json"  
+        }, 
+        {
+           "key": "酷狗",
+           "name": "🐾┃酷狗┃音乐",
+           "type": 3,
+           "api": "csp_Kugou",
+           "jar":"./KH音乐.jar",
+           "playerType": 2,
+           "ext":{"classes": [
+            {"type_name": "酷狗",
+           "type_id": "kugou"}]}
+        },
+        {
+		 "key": "酷狗音乐",
+		 "name": "🎸┃酷狗2┃音乐",
+		 "type": 3,
+		 "jar":"https://ncstatic.clewm.net/rsrc/2025/0821/23/753d376ab89b34e2bf78761f5fe0289a.png",
+	     "api": "csp_Kugou",
+		 "style": {"type": "rect",
+		 "ratio": 1.433
+			},
+		 "searchable": 1,
+		 "quickSearch": 1,
+		 "filterable": 1
+		},          
+       {
+           "key": "酷狗音",
+           "name": "💤酷狗MV",
+           "type": 3,
+           "api": "http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "order_num": 0,
+           "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/酷狗MV.js"
+        },
+        {
+           "key": "drpy_js_DJ音乐",
+           "name": "🏮DJ音乐[听]",
+           "type": 3,
+           "api": "http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "order_num": 0,
+           "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/DJ音乐.js"
+        },
+        {
+           "key": "种子",
+           "name": "💘种子音乐[听]",
+           "type": 3,
+           "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "order_num": 0,
+           "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/种子音乐[听].js"
+        },
+       {
+           "key": "牛Y",
+           "name": "🐮牛牛综合",
+           "type": 1,
+           "api": "https://niuniuzy7.com/api.php/provide/vod/", 
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "categories": ["演唱会","4K电影","预告片","影视解说","大陆综艺","篮球"]
+        },
+        {
+           "key": "美食",
+           "name": "🍝美食",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "filterable": 1,
+           "ext":"./json/美食.json"
+        },
+        {
+           "key": "热舞",
+           "name": "♨️热舞",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "ext": "./json/海宇热舞.json"
+        },
+        {
+           "key": "bili_哔哩车模",
+           "name": "🏅车模",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "filterable": 1,
+           "ext":"./json/车模.json"
+        },
+        {      
+           "key":"地理",
+           "name":"🔱科教",
+           "type":3,
+           "api":"csp_Bili",
+           "searchable":0,
+           "quickSearch":1,
+           "filterable":1,
+           "ext":"./json/地理科技.json"
+        },
+        {
+           "key": "影视解说",
+           "name": "🎬影视解说",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "ext": "./json/影视解说.json"
+         },
+         {
+           "key": "cdq_预告",
+           "name": "📺看海|预告",
+           "type": 3, 
+           "jar":"./儿童.jar",
+           "api": "csp_XBPQ",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "ext": "./json/预告.json"
+         },
+        {
+           "key": "播客",
+           "name": "🚉播客",
+           "type": 3,
+           "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "changeable": 1,
+           "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/播客.js" 
+        }, 
+        {
+           "key": "综合",
+           "name": "⛲综合",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "ext":"./json/海宇哔哩综合.json"
+        },
+        {
+           "key": "小姐姐",
+           "name":"💃小姐姐",  
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "filterable": 1,
+           "ext": "./json/小姐姐.json"
+        },
+        {
+           "key":"🅱️┃合集",
+           "name":"🎢合集",  
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 0,
+           "quickSearch": 0,
+           "filterable": 1,
+           "ext": "./json/哔哩哔哩合集.json"
+        },
+        {
+           "key": "8K",
+           "name": "💯MV8K",
+           "type": 3,
+           "api": "csp_Bili",
+           "searchable": 1,
+           "quickSearch": 1,
+           "filterable": 1,
+           "ext": "./json/MV8K.json"
+         },
+         {
+            "key": "B站影视",
+            "name": "✳️哔哩影视弹",
+            "type": 3, 
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1, 
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./看海/哔站影视.js"
+         },
+         {
+            "key": "网易公版影像",
+	        "name": "💎网易公版影像",
+	        "type": 3,
+	        "api":"http://xn--c-9s9bl6y.xt91tv.shop/js/drpy2.min.js",
+	        "searchable": 1,
+            "quickSearch": 1,
+	        "filterable": 1,
+            "order_num": 0,
+            "ext": "http://xn--c-9s9bl6y.xt91tv.shop/看海/网易公版影像.js"
+		 },
+         {
+            "key": "✨春晚",
+            "name": "🏖️海宇春晚vs酷奇MV",
+            "type": 3, 
+            "api": "./看海/sdtv.js",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./看海/春晚酷奇MV.json"
+          },
+         {
+            "key": "✨看海",
+            "name": "💝海宇音乐网络直播",
+            "type": 3,
+            "api": "./看海/sdtv.js",
+            "searchable": 0,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "./看海/海宇MV.json"
+         }
+       ],
+  "rules": [
+    {
+      "host": "www.djuu.com",
+      "rule": [
+        "mp4.djuu.com",
+        "m4a"
+      ]
+    },
+    {
+      "host": "www.sharenice.net",
+      "rule": [
+        "huoshan.com",
+        "/item/video/"
+      ],
+      "filter": [
+        
+      ]
+    },
+    {
+      "host": "www.sharenice.net",
+      "rule": [
+        "sovv.qianpailive.com",
+        "vid="
+      ],
+      "filter": [
+        
+      ]
+    },
+    {
+      "host": "www.sharenice.net",
+      "rule": [
+        "douyin.com",
+        "/play/"
+      ]
+    },
+    {
+      "host": "m.ysxs8.vip",
+      "rule": [
+        "ysting.ysxs8.vip:81",
+        "xmcdn.com"
+      ],
+      "filter": [
+        
+      ]
+    },
+    {
+      "host": "hdmoli.com",
+      "rule": [
+        ".m3u8"
+      ]
+    },
+    {
+      "host": "https://api.live.bilibili.com",
+      "rule": [
+        "bilivideo.com",
+        "/index.m3u8"
+      ],
+      "filter": [
+        "data.bilibili.com/log/web",
+        "i0.hdslb.com/bfs/live/"
+      ]
+    },
+    {
+      "host": "www.agemys.cc",
+      "rule": [
+        "cdn-tos",
+        "obj/tos-cn"
+      ]
+    },
+    {
+      "host": "www.fun4k.com",
+      "rule": [
+        "https://hd.ijycnd.com/play",
+        "index.m3u8"
+      ]
+    },
+    {
+      "host": "zjmiao.com",
+      "rule": [
+        "play.videomiao.vip/API.php",
+        "time=",
+        "key=",
+        "path="
+      ]
+    }
+  ],
+  "parses": [
+          {
+      "name": "超级并发",
+      "type": 3,
+      "url": "Demo"
+    },{
+            "name": "海宇",
+            "type": "1",
+            "url": "https://coffee.1ljx.com:32000/api/?key=36d3e7f8-f971-44a7-9063-5db4f218491d&url="
+        },
+        
+ {
+      "name": "音乐",
+      "type": 1,
+      "url": "https://coffee.1ljx.com:32000/api/?key=36d3e7f8-f971-44a7-9063-5db4f218491d&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "bilibili",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "影视",
+      "type": "1",
+      "url": "https://coffee.1ljx.com:32000/api/?key=36d3e7f8-f971-44a7-9063-5db4f218491d&url="
+    },
+    {
+      "name": "海宇2",
+      "type": 1,
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    }
+  ],
+  "wallpaper": "https://picsum.photos/1280/720/?blur=2"
+}
