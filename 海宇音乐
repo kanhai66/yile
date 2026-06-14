@@ -31,89 +31,89 @@
           },
          {
 "key"："sing"音乐"，
-"name"："🎙️   sing音乐"，
+"name"："🎙️     sing音乐"，
 "type"：3，
 "api"："https://gitee.com/huyyyyy-kai/02111/raw/master/py/apiv203sing音乐.py"
         },
           {
-            "key": "啊哈",
-            "name": "⛵啊哈音乐[XBP]",
-            "type": 3,
-            "jar":"./XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/啊哈音乐.json"
+"密钥"："啊哈"，
+"name"："⛵啊哈音乐[XBP]"，
+"type"：3，
+"jar"："./XBPQ.jar"，
+"api"："csp_XBPQ"，
+"可搜索"：1，
+"快速搜索"：1，
+"可过滤"：1，
+"ext"："./json/啊哈音乐.JSON"
          },
          {
-            "key":"爱听音乐",
-            "name":"🔔爱听丨音乐",
-            "type":3,
-            "api":"https://mpimg.cn/down.php/b3284feb00815ddd5d7e71e1468d9cf1.py",
-            "searchable":1,
-            "changeable":1,
-            "quickSearch":1,
-            "filterable":1
+"密钥"："爱听音乐"，
+"name"："🔔爱听丨音乐"，
+"type"：3，
+"api"："https://mpimg.cn/down.php/b3284feb00815ddd5d7e71e1468d9cf1.py"，
+"可搜索"：1，
+“可变”：1，
+"快速搜索"：1，
+“可过滤”：1
          },
          {
-            "key": "易听音乐",
-            "name": "🎑易听音乐",
-            "type": 3,
-            "jar":"./儿童.jar",
-            "api": "csp_XBPQ",
-            "ext":"./json/易听.json"
+"密钥"："易听音乐"，
+"name"："🎑易听音乐"，
+"type"：3，
+"jar"："./儿童.罐"，
+"api"："csp_XBPQ"，
+"ext"："./json/易听.json"
+},
+{
+"密钥"："闪闪音乐网"，
+"name"："💥闪存音乐网"，
+"type"：3，
+"jar"："./儿童.罐"，
+"api"："csp_XBPQ"，
+"可搜索"：1，
+"快速搜索"：1，
+"可过滤"：1，
+"ext"："./json/闪闪音乐网.JSON"
          },
          {
-            "key": "闪闪音乐网",
-            "name": "💥闪闪音乐网",
-            "type": 3,
-            "jar":"./儿童.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/闪闪音乐网.json"
-         },
-         {
-            "key": "深港音乐汇mp3",
-            "name": "🌆深港音乐汇",
-            "type": 3,
-            "jar":"./儿童.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/深港音乐.json"
+"密钥"："深港音乐汇mp3"，
+"name"："🌆深港音乐汇"，
+"type"：3，
+"jar"："./儿童.罐"，
+"api"："csp_XBPQ"，
+"可搜索"：1，
+"快速搜索"：1，
+"可过滤"：1，
+"ext"："./json/深港音乐.JSON"
          },
          {     
-            "key": "时音乐网", 
-            "name": "💍水晶DJ", 
-            "type": 3,
-            "jar":"./XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1, 
-            "filterable": 1, 
-            "ext": "./json/水晶DJ.json"
+"密钥"："时音乐网"，
+"name"："💍水晶DJ"，
+"type"：3，
+"jar"："./XBPQ.jar"，
+"api"："csp_XBPQ"，
+"可搜索"：1，
+"快速搜索"：1，
+"可过滤"：1，
+"ext"："./json/水晶DJ.json"
          },
          {
-           "key":"枫叶音乐",
-           "name":"🍁枫叶音乐",
-           "type":3,
-           "api":"https://mpimg.cn/down.php/2090fedb67387ea1a1ad908a94eb0aa6.py",
-           "searchable":1,
-           "changeable":1,
-           "quickSearch":1,
-           "filterable":1
+"密钥"："枫叶音乐"，
+"name"："🍁枫叶音乐"，
+"type"：3，
+"api"："https://mpimg.cn/down.php/2090fedb67387ea1a1ad908a94eb0aa6.py"，
+"可搜索"：1，
+“可变”：1，
+"快速搜索"：1，
+“可过滤”：1
          },
          {
-            "key": "嗨瑶",
-            "name": "🎻嗨瑶音乐",
-            "type": 3,
-            "jar":"./XBPQ.jar",
-            "api": "csp_XBPQ",
-            "searchable": 1,
+"密钥"："嗨瑶"，
+"name"："🎻嗨瑶音乐"，
+"type"：3，
+"jar"："./XBPQ.jar"，
+"api"："csp_XBPQ"，
+"可搜索"：1，
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/92音乐.json"
